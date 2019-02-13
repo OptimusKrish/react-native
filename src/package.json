@@ -1,0 +1,52 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "description": "learning react native",
+  "nyc": {
+    "check-coverage": true,
+    "per-file": true,
+    "branches": 99,
+    "include": [
+      "components/*.js",
+      "components/myThemes/*.js",
+      "constants/*.js",
+      "navigation/*.js",
+      "screens/*.js"
+    ],
+    "all": true
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start ../ --ios",
+    "eject": "expo eject",
+    "test": "node node_modules/jest/bin/jest.js --coverage",
+    "report": "open coverage/lcov-report/index.html"
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "collectCoverageFrom": [
+      "App.js",
+      "components/myThemes/*.js",
+      "components/*.js",
+      "constants/*.js",
+      "navigation/*.js",
+      "screens/*.js"
+    ]
+  },
+  "dependencies": {
+    "@expo/samples": "2.1.1",
+    "@expo/vector-icons": "^9.0.0",
+    "expo": "^32.0.5",
+    "jest": "^24.1.0",
+    "lottie-react-native": "^2.3.2",
+    "native-base": "^2.11.0",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-navigation": "^3.0.9"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.0.0",
+    "jest-expo": "^32.0.0"
+  },
+  "private": true
+}

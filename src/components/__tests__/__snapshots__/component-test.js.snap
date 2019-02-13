@@ -1,0 +1,319 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component test AddExpense renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "height": 1334,
+    }
+  }
+>
+  <ActivityIndicator
+    animating={true}
+    color="blue"
+    hidesWhenStopped={true}
+    size="large"
+    style={
+      Object {
+        "height": 80,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Component test ListExpense renders correctly 1`] = `
+Array [
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 0.5,
+          "borderColor": "#ccc",
+          "borderLeftWidth": 0.5,
+          "borderRadius": 2,
+          "borderRightWidth": 0.5,
+          "borderTopWidth": 0.5,
+          "elevation": 3,
+          "flexWrap": "nowrap",
+          "marginBottom": 5,
+          "marginLeft": 2,
+          "marginRight": 2,
+          "marginTop": 5,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+          "shadowRadius": 1.5,
+        },
+        Object {
+          "borderColor": "Red",
+        },
+      ]
+    }
+  >
+    <View
+      header={true}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderBottomWidth": null,
+          "borderRadius": 2,
+          "flexDirection": "row",
+          "paddingBottom": 15,
+          "paddingLeft": 15,
+          "paddingRight": 15,
+          "paddingTop": 15,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000",
+            "fontFamily": "System",
+            "fontSize": 16,
+            "fontWeight": "600",
+          }
+        }
+        uppercase={false}
+      >
+        For 
+        cigrette
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderRadius": 2,
+          "flexDirection": "row",
+          "paddingBottom": 10,
+          "paddingLeft": 15,
+          "paddingRight": 15,
+          "paddingTop": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "alignSelf": "stretch",
+            "flex": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+            }
+          }
+          uppercase={false}
+        >
+          Spent Rs.
+          15
+          /-
+        </Text>
+      </View>
+    </View>
+    <View
+      footer={true}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderBottomWidth": null,
+          "borderRadius": 2,
+          "flexDirection": "row",
+          "paddingBottom": 10,
+          "paddingLeft": 15,
+          "paddingRight": 15,
+          "paddingTop": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000",
+            "fontFamily": "System",
+            "fontSize": 16,
+            "fontWeight": "600",
+          }
+        }
+        uppercase={false}
+      >
+        On 
+        Feb 08 2019
+         
+        <Text />
+         
+        21:39:34 PM
+      </Text>
+    </View>
+  </View>,
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 0.5,
+          "borderColor": "#ccc",
+          "borderLeftWidth": 0.5,
+          "borderRadius": 2,
+          "borderRightWidth": 0.5,
+          "borderTopWidth": 0.5,
+          "elevation": 3,
+          "flexWrap": "nowrap",
+          "marginBottom": 5,
+          "marginLeft": 2,
+          "marginRight": 2,
+          "marginTop": 5,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+          "shadowRadius": 1.5,
+        },
+        Object {
+          "borderColor": "Red",
+        },
+      ]
+    }
+  >
+    <View
+      header={true}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderBottomWidth": null,
+          "borderRadius": 2,
+          "flexDirection": "row",
+          "paddingBottom": 15,
+          "paddingLeft": 15,
+          "paddingRight": 15,
+          "paddingTop": 15,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000",
+            "fontFamily": "System",
+            "fontSize": 16,
+            "fontWeight": "600",
+          }
+        }
+        uppercase={false}
+      >
+        For 
+        snacks
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderRadius": 2,
+          "flexDirection": "row",
+          "paddingBottom": 10,
+          "paddingLeft": 15,
+          "paddingRight": 15,
+          "paddingTop": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "alignSelf": "stretch",
+            "flex": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+            }
+          }
+          uppercase={false}
+        >
+          Spent Rs.
+          23
+          /-
+        </Text>
+      </View>
+    </View>
+    <View
+      footer={true}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderBottomWidth": null,
+          "borderRadius": 2,
+          "flexDirection": "row",
+          "paddingBottom": 10,
+          "paddingLeft": 15,
+          "paddingRight": 15,
+          "paddingTop": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000",
+            "fontFamily": "System",
+            "fontSize": 16,
+            "fontWeight": "600",
+          }
+        }
+        uppercase={false}
+      >
+        On 
+        Feb 08 2019
+         
+        <Text />
+         
+        20:33:43 PM
+      </Text>
+    </View>
+  </View>,
+]
+`;
+
+exports[`Component test StyleText renders correctly 1`] = `
+<Text
+  style={
+    Array [
+      undefined,
+      Object {
+        "fontFamily": "space-mono",
+      },
+    ]
+  }
+>
+  Snapshot test!
+</Text>
+`;
