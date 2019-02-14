@@ -18,6 +18,13 @@ describe('Component test', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('AddExpense function calls correctly', () => {
+    const addExpense = new AddExpense({});
+    expect(addExpense.setDate()).toMatchSnapshot();
+    expect(addExpense.onValueChange()).toMatchSnapshot();
+    expect(addExpense.getExpense()).toMatchSnapshot();
+  });
+
   it('ListExpense renders correctly', () => {
     const mockData =  [
       {

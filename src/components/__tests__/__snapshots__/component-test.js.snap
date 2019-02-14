@@ -1,5 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Component test AddExpense function calls correctly 1`] = `undefined`;
+
+exports[`Component test AddExpense function calls correctly 2`] = `undefined`;
+
+exports[`Component test AddExpense function calls correctly 3`] = `
+Promise {
+  "_40": 0,
+  "_55": null,
+  "_65": 0,
+  "_72": null,
+}
+`;
+
 exports[`Component test AddExpense renders correctly 1`] = `
 <View
   style={
