@@ -1,19 +1,6 @@
 {
   "main": "node_modules/expo/AppEntry.js",
   "description": "learning react native",
-  "nyc": {
-    "check-coverage": true,
-    "per-file": true,
-    "branches": 99,
-    "include": [
-      "components/*.js",
-      "components/myThemes/*.js",
-      "constants/*.js",
-      "navigation/*.js",
-      "screens/*.js"
-    ],
-    "all": true
-  },
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
