@@ -14,7 +14,7 @@ Step: 6 Run the scripts in `package.json` file
 
 <h2>Screenshot</h2>
 
-
-![Alt text](src/assets/images/AddScreen.png?raw=true "Add Expense")
-
-![Alt text](src/assets/images/ViewScreen.png?raw=true "View Expenses")
+<div align="center">
+    <img src="src/assets/images/AddScreen.png" width="250px" height="400px"/> &nbsp;
+    <img src="src/assets/images/ViewScreen.png" width="250px" height="400px"/>
+</div>
