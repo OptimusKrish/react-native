@@ -12,3 +12,9 @@ Step: 5 Follow the instructions in the terminal console to open the app in mobil
 
 Step: 6 Run the scripts in `package.json` file
 
+<h2>Screenshot</h2>
+
+
+![Alt text](src/assets/images/AddScreen.png?raw=true "Add Expense")
+
+![Alt text](src/assets/images/ViewScreen.png?raw=true "View Expenses")
